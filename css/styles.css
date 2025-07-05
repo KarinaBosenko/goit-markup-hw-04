@@ -1,0 +1,281 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container,
+.header-nav,
+.header-nav-list,
+.header-address-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list,
+.header-address-list {
+  gap: 40px;
+}
+.header-address-list-item-link,
+.header-nav-list-item-link {
+  display: block;
+  padding: 24px 0;
+}
+
+.header-nav-list-item-link {
+  font-weight: 500;
+}
+
+.header-address {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.header-address-list-item-link {
+  color: #434455;
+}
+
+.header-nav-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.header-nav-logo-studio,
+.footer-logo-studio {
+  color: #2e2f42;
+}
+
+.header-nav-logo,
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-nav-list-item-link,
+.strengths-title-list-item-title,
+.team-title,
+.team-list-item-title,
+.portfolio-title,
+.portfolio-list-item-title {
+  color: #2e2f42;
+}
+
+.header-nav-list-item-link:hover,
+.header-nav-list-item-link:focus,
+.header-nav-list-item-link:active,
+.header-address-list-item-link:hover,
+.header-address-list-item-link:focus {
+  color: #404bbf;
+}
+
+.header-nav-list-item-link,
+.header-address-list-item-link,
+.strengths-title-list-item-text,
+.team-list-item-text,
+.portfolio-list-item-text,
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.hero-banner {
+  padding: 188px 0;
+}
+
+.hero-banner-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  margin: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
+}
+
+.hero-banner-button {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+}
+
+.hero-banner,
+.footer {
+  background-color: #2e2f42;
+}
+
+.hero-banner-title,
+.hero-banner-button {
+  color: #fff;
+}
+
+.hero-banner-button:hover,
+.hero-banner-button:focus {
+  background-color: #404bbf;
+}
+
+.strengths,
+.team,
+.portfolio {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.strengths-title-list-item,
+.team-list-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.strengths-title-list-item-title,
+.team-list-item-title,
+.portfolio-list-item-title {
+  margin-bottom: 8px;
+}
+
+.strengths-title-list,
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.strengths-title-list-item-title,
+.team-list-item-title,
+.portfolio-list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title,
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.team-list-item {
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item-card {
+  padding: 32px 0;
+}
+
+.team-title,
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-title,
+.portfolio-title,
+.hero-banner-title,
+.team-list-item-title,
+.team-list-item-text {
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-list-item-card {
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.footer {
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
+}
+
+.footer-logo-studio,
+.footer-text {
+  color: #f4f4fd;
+}
